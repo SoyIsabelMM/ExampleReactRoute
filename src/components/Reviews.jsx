@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
+import "./Reviews.css";
 
-function Reviews () {
+function Reviews() {
   return (
-    <div>
-      <p>
-       My reviews will go here!
-      </p>
+    <div className="reviews">
+      <p>My reviews will go here!</p>
     </div>
-  )
+  );
 }
 
 export default Reviews;

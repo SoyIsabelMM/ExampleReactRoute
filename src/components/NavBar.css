@@ -1,0 +1,12 @@
+.menu__link {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.menu__link_active {
+  color: #4aea37;
+}
